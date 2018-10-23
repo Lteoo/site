@@ -1,0 +1,109 @@
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+background-color: #D3D3D3;
+}
+        
+.cabecalho{
+font-size: 20px;
+background: linear-gradient(135deg,#808080, #A9A9A9,#C0C0C0 100%); 
+}
+        
+
+.nome-despachante{
+padding: 25px;
+font-size: 35px;
+color: #000;
+text-align: left;
+}
+
+.menu{
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+.menu a {
+    padding: 15px;
+}
+
+.menu a:hover,
+.menu a.selected {
+    background-color: #4faddb;
+    color: #000;
+}
+
+img{
+    height: 400px;
+    width: 650px;
+    float: right;
+    margin: 10px;
+    box-shadow: 5px 5px #A9A9A9;
+}
+
+.letras{
+    position: absolute;
+    left:10px;
+    top: 150px;
+    color: #000;
+}
+
+.abaixo{
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.rodape{
+    background: linear-gradient(135deg,#808080, #A9A9A9,#C0C0C0 100%); 
+    margin-top: 700px;
+    height: 200px;
+}
+
+.menu-rodape li{
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.brincadeira1{
+    float: left;
+}
+
+.brincadeira2{
+   float: right;
+}
+
+.brincadeira2 img{
+    height: 400px;
+}
+
+.brincadeira1 p{
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+.brincadeira2 p{
+    font-size: 1.8em;
+    margin: 10px;
+}
